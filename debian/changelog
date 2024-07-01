@@ -1,0 +1,5 @@
+test (1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- liang <liang@example.com>  Mon, 01 Jul 2024 23:31:49 +0800

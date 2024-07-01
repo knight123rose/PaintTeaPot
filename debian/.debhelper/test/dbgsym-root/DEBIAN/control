@@ -1,0 +1,13 @@
+Package: test-dbgsym
+Package-Type: ddeb
+Source: test
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: liang <liang@example.com>
+Installed-Size: 22
+Depends: test (= 1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for test
+Build-Ids: 3f5fed4574dacacc9d73dc310715310846093d6b

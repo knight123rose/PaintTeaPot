@@ -1,0 +1,15 @@
+Source: test
+Section: unknown
+Priority: optional
+Maintainer: liang <liang@example.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/test
+#Vcs-Git: https://salsa.debian.org/debian/test.git
+Rules-Requires-Root: no
+
+Package: test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: To render a teapot using OpenGL in a Qt project.
